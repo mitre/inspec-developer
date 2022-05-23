@@ -4,7 +4,7 @@ icon: home
 title: MITRE InSpec Profile Developer Course
 # heroImage: /logo.svg
 heroText: MITRE SAF InSpec Profile Developer
-tagline: From Guidance Document to Automated Tests in no time!
+tagline: From guidance documents to automated tests in no time!
 actions:
   - text: Start the Class!
     link: /course/
