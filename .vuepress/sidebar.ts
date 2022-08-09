@@ -3,11 +3,47 @@ import { sidebar } from "vuepress-theme-hope";
 export default sidebar([
   {
     icon: "creative",
-    text: "Course",
-    prefix: "/course/",
-    link: "/course/",
+    text: "Operator Course",
+    prefix: "/courses/assessor/",
+    link: "/courses/assessor/",
     children: "structure",
+    collapsable: true
+    // activeMatch: "^/courses/(?:(?!beginner/|advanced/).*)?$"
   },
+  {
+    icon: "creative",
+    text: "Beginner InSpec Course",
+    prefix: "/courses/beginner/",
+    link: "/courses/beginner/",
+    children: "structure",
+    collapsable: true
+    // activeMatch: "^/courses/(?:(?!beginner/|advanced/).*)?$"
+  },
+  {
+    icon: "creative",
+    text: "Advanced InSpec Course",
+    prefix: "/courses/advanced/",
+    link: "/courses/advanced/",
+    // activeMatch: "^/courses/(?:(?!beginner/|advanced/).*)?$"
+    children: "structure",
+    collapsable: true
+  },
+  {
+    icon: "note",
+    text: "Resources",
+    prefix: "/resources/",
+    link: "/resources/",
+    children: "structure",
+    collapsable: true
+  },
+  {
+    icon: "note",
+    text: "Installation",
+    prefix: "/installation/",
+    link: "/installation/",
+    children: "structure",
+    collapsable: true
+  }
   // {
   //   icon: "document",
   //   text: "Installation",

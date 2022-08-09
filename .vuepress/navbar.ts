@@ -3,7 +3,14 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   "/",
   // "/home",
-  { text: "Course", icon: "creative", link: "/course/" },
+  { 
+    text: "Courses", 
+    icon: "creative", 
+    children: [
+      { text: "Operator Course", link: "/courses/assessor/", icon: "creative" },
+      { text: "Beginner InSpec Course", link: "/courses/beginner/", icon: "creative" },
+      { text: "Advanced InSpec Course", link: "/courses/advanced/", icon: "creative" },
+    ]},
   { text: "Resources", icon: "note", link: "/resources/" },
   { text: "Installation", icon: "note", link: "/installation/" },
   // { text: "Theme Docs", icon: "note", link: "https://vuepress-theme-hope.github.io/v2/" },
